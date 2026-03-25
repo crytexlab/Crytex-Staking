@@ -1,0 +1,15 @@
+{
+  "name": "crytex-staking",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "node scripts/deploy.js"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "ethers": "^6.0.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.10"
+  }
+}
